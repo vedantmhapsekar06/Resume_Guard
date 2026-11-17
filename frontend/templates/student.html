@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}ResumeGuard — I'm Applying{% endblock %}
+
+{% block content %}
+<div class="panels">
+    <div class="panel">
+        <label class="panel-label">TARGET JOB DESCRIPTION</label>
+        <textarea id="jobDescription" placeholder="Paste the job description here..."></textarea>
+    </div>
+
+    <div class="panel">
+        <label class="panel-label">YOUR RESUME</label>
+        <div class="upload-zone" id="uploadZone">
+            <p>Drop your resume or click to upload</p>
+            <span class="file-hint">PDF or DOCX</span>
+        </div>
+        <input type="file" id="resumeInput" accept=".pdf,.docx" hidden>
+        <div class="file-list" id="fileList"></div>
+    </div>
+</div>
+
+<button class="run-button" id="runButton">ANALYZE MY RESUME</button>
+
+<div id="statusArea"></div>
+
+<div id="resultsArea"></div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/student.js"></script>
+{% endblock %}

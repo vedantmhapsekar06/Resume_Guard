@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}ResumeGuard{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="brand">
+            <h1>ResumeGuard</h1>
+            <span class="tagline">MULTI-AGENT SCREENING</span>
+        </div>
+        <nav class="mode-toggle">
+            <a href="/" class="{% if active_mode == 'hiring' %}active{% endif %}">I'M HIRING</a>
+            <a href="/apply" class="{% if active_mode == 'applying' %}active{% endif %}">I'M APPLYING</a>
+        </nav>
+    </header>
+
+    <main class="app-main">
+        {% block content %}{% endblock %}
+    </main>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

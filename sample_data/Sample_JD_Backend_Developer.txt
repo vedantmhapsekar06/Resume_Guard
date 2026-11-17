@@ -1,0 +1,22 @@
+Backend Developer - Nimbus Labs, Mumbai (Hybrid), Full-time
+
+About the role
+We are hiring a Backend Developer to build and maintain the APIs behind our logistics platform. You will work closely with the frontend and data teams and own services end to end.
+
+Requirements
+- 3+ years of professional backend development experience.
+- Strong skills in Python and Django.
+- Experience designing and consuming REST APIs.
+- Hands-on experience with PostgreSQL, including query optimisation.
+- Experience with Git and code reviews.
+
+Nice to have
+- Experience with AWS (EC2, S3, RDS).
+- Docker and CI/CD pipelines.
+- Redis or Celery for background jobs.
+
+Responsibilities
+- Build scalable REST APIs and backend services.
+- Optimise database queries and improve application performance.
+- Write automated tests and review teammates' code.
+- Deploy and monitor services in the cloud.

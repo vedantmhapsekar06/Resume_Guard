@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+backend/db/resumeguard.db
+venv/
+env/
+.venv/
+node_modules/
+*.log
+.DS_Store
+test_files/

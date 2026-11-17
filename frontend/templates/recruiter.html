@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}ResumeGuard — I'm Hiring{% endblock %}
+
+{% block content %}
+<div class="panels">
+    <div class="panel">
+        <label class="panel-label">JOB DESCRIPTION</label>
+        <textarea id="jobDescription" placeholder="Paste the job description here..."></textarea>
+    </div>
+
+    <div class="panel">
+        <label class="panel-label">RESUMES (BATCH)</label>
+        <div class="upload-zone" id="uploadZone">
+            <p>Drop resumes or click to upload</p>
+            <span class="file-hint">PDF or DOCX — any number of candidates</span>
+        </div>
+        <input type="file" id="resumeInput" accept=".pdf,.docx" multiple hidden>
+        <div class="file-list" id="fileList"></div>
+    </div>
+</div>
+
+<button class="run-button" id="runButton">RUN BATCH SCREENING</button>
+
+<div id="statusArea"></div>
+
+<div id="resultsArea"></div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/recruiter.js"></script>
+{% endblock %}
