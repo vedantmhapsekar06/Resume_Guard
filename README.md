@@ -84,6 +84,12 @@ The model is small (3B parameters, to fit in 4 GB of VRAM). Small models are unr
 
 ---
 
+<img width="1892" height="906" alt="image" src="https://github.com/user-attachments/assets/e721430c-4ce8-4bc9-ab5c-2604eb6dde21" />
+<img width="1892" height="878" alt="image" src="https://github.com/user-attachments/assets/f4e6cd32-968e-4174-8dd7-d0da3a11828b" />
+
+
+
+
 ## Tech stack
 
 | Layer | Technology |
